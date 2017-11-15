@@ -38,9 +38,9 @@
 	<script type="text/javascript">
   document.getElementById('entrybutton').addEventListener('click',myEventFunction)
 function myEventFunction() {
-	var boxinput = document.getElementById("entryinput").value;
+	var boxinput = document.getElementById("entryinput")+"";
 	alert("Desmend Jetton: " + entryinput.value);
-	document.getElementById("entryinput").innertHTML=boxinput;
+	document.getElementByclass("center").innertHTML=boxinput;
 
 	}
 
