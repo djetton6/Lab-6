@@ -36,11 +36,13 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
-	  function myEventFunction(){
-	alert("Hello Desmend");
+  document.getElementById('entrybutton').addEventListener('click',myEventFunction)
+function myEventFunction() {
+	var boxinput = document.getElementById("entryinput").value;
+	alert("Desmend Jetton: " + entryinput.value);
+	document.getElementById("textoutput").in
 }
-  var d2=document.getElementById('entrybutton')
-	d3.addEventListener('click',myEventFunction)
+
 	</script>
 </body>
 </html>
