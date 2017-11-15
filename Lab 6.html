@@ -36,10 +36,13 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
-  document.getElementById('entrybutton').addEventListener('click',myEventFunction)
+  var labInput= document.getElementById('entryinput');
+	var labOutput= document.getElementById('textoutput');
+
+	document.getElementById('entryinput').addEventListener('click',myEventFunction)
 function myEventFunction() {
-	var boxinput = document.getElementById("entryinput")+"";
 	alert("Desmend Jetton: " + entryinput.value);
+  var alertButton =document.getElementByclass('center');
 	document.getElementByclass("center").innertHTML=boxinput;
 
 	}
